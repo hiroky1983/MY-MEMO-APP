@@ -1,0 +1,103 @@
+
+body{
+  background-color: #f7e7e7;
+  display: block;
+  
+}
+
+.search{
+  margin: 10px 50px;
+  position: relative;
+  right: auto;
+  float: right;
+  box-shadow: rgb(83, 83, 83);
+}
+
+
+.search-form{
+  height: 20px;
+  background-color: #f8efbb;
+  border-radius: 8px;
+  box-shadow: rgb(83, 83, 83);
+  /* margin: 10px 50px;
+  position: relative;
+  right: auto; */
+}
+
+#modal {
+  background: rgb(221, 205, 205);
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: transform 0.4s;
+  z-index: 2;
+}
+
+#modal.hidden {
+  transform: translate(0, -500px);
+}
+
+.top{
+  display: flex;
+  margin: 30px;
+  color: rgba(0,0,0/ 0);
+  letter-spacing: 4px;
+  text-shadow: 3px 3px 0 #5d99e2;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 1;
+}
+
+.top h1{
+  display: block;
+  width: 300px;
+  margin: 0;
+  padding-right: 0;
+}
+
+.main{
+  width: 300px;
+  height: 300px;
+}
+
+.main button{
+  width: 30px;
+  height: 21px;
+  display: block;
+  
+}
+
+.main li{
+  padding: 10px;
+  list-style: none;
+  font-size: 18px;
+}
+
+#add-memo input,
+#add-memo textarea,
+#add-memo button {
+  display: block;
+  width: 100%;
+}
+
+#add-memo input{
+  height: 20px;
+}
+
+#add-memo textarea{
+  height:300px;
+}
+
+#add-memo * + * {
+  margin-top: 12px;
+}
+
+.sidebar{
+  float: right;
+  
+}
