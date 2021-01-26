@@ -35,13 +35,6 @@ close.addEventListener('click', () => {
     ul.appendChild(ul.removeChild(lists[i]))
   }
 
-  // const lists = [];
-  // lists.push(add);
-  // lists.sort((a,b) => {
-  //    a.toLowerCase(value) < b.toLowerCase(value) ? -1 : 1 ; 
-  //    orderRule.indexOf(a) - orderRule.indexOf(b);
-  //   push(add);
-  // });
   text.value = '';
   exp.value = '';
 });
